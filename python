@@ -1,0 +1,26 @@
+A=5.0
+B=0
+C=A+B
+F="0"
+D="Hello World!!"*80000#Выведет 80000 раз
+print (F)
+
+del A #Удаляет переменую
+name = input("Как вас вас зовут? ")#Ввод
+print ("Првет,",name)#Выведет
+
+num_1 = int(input("Num_1: "))#Цифра
+num_2 = int(input("Num_2: "))#Цифра
+res = num_1 + num_2#Сложит цифры
+print ("Result is", res)#Выведет цифру
+
+str_1 = input("Something")#По умолчанию присваивает строку
+str_2 = input("Something")
+res = str_1 + str_2#Склеит cтроки
+print ("Result is", res)#Выведет цифру
+
+name = input ("Input name: ")
+if name == "Степан":#Условие
+    print ("Пошел отсюда\n")#После вывода пренесет строчку
+else:
+    print ("OK")#Выведет на новой строчке
